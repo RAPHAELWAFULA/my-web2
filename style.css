@@ -1,0 +1,125 @@
+
+/* header */
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* border: 1px solid yellow; */
+    margin: 10px;
+  
+
+
+}
+.logo h1{
+    color: yellow;
+    font-family: "Kaushan Script", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.navbar{
+      display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 40%;
+    font-family: noto sans;
+}
+
+.navul{
+      display: flex;
+    align-items: center;
+    gap:10px;
+      
+}
+
+li{
+   
+    list-style-type: none;
+
+
+
+
+}
+li :hover
+{
+ 
+  text-decoration: line-through;
+}
+
+a{
+     text-decoration: none;
+         color: black;
+}
+
+.nav-button{
+    border: 1px solid yellow;
+    border-radius: 17px;
+    margin-left: 10px;
+    padding: 10px;
+    color: ;
+    background-color: yellow;
+    font-size: 12px;
+
+
+}
+
+
+/* home */
+
+
+.home{
+    display: flex;
+    align-items: center;
+    flex-direction:row ;
+    justify-content: space-between;
+    margin-top: 100px;
+    padding: 20px;
+    font-family: Playfair Display;
+
+}
+.intro{
+    display: grid;
+    align-items: center;
+    flex-direction:column ;
+}
+.name{
+    color: yellow;
+}
+.intro p{
+    font-size: 60px;
+    line-height: 5px;
+    font-weight: 600;
+}
+.intro button{
+    width: 15%;
+    border-radius: 11px;
+    color: white;
+    background-color: yellow;
+    border: none;
+    padding: 5px;
+}
+
+.icons{
+    margin: 50px;
+    display: flex;
+    justify-content: space-between;
+    width: 30%;
+}
+
+.intro2{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    background-color:yellow;
+     border-radius: 80px 40px 60px 100px;
+
+
+}
+.intro2 img{
+    
+    background-color: blue;
+     border-radius: 98% 42% 33% 46% / 120% 58% 42% 60%;
+}
